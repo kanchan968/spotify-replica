@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #181818;
+    padding: 20px;
+}
+
+.library {
+    margin-bottom: 20px;
+}
+
+.playlist {
+    display: flex;
+    justify-content: space-between;
+    color: lightgray;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+.search input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.playlists, .popular-radio {
+    margin-top: 20px;
+}
+
+.daily-mix, .radio-stations {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mix, .station {
+    background-color: #282828;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    flex: 1 0 30%;
+    text-align: center;
+}
+
+.footer {
+    background-color: #181818;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
